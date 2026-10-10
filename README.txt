@@ -1,4 +1,4 @@
-EMPOWERING ELECTRONICS-ELECTRICALS WEB APP
+RAJLAXMI REVATECs WEB APP
 Open index.html in a browser. It is responsive for desktop and mobile.
 
 WHAT'S IN THIS VERSION
