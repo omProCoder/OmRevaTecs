@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: eectas-electrical-webapp
+    name: OmRevatecs-webapp
     runtime: node
     buildCommand: npm install
     startCommand: npm start
