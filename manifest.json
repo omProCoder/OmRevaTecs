@@ -1,0 +1,17 @@
+{
+  "name": "Empowering Electronics-Electricals",
+  "short_name": "Empowering EE",
+  "description": "Electrical, PLC & automation, control panels, ESP32/IoT, PC/IT and CCTV services.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#123b59",
+  "theme_color": "#123b59",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

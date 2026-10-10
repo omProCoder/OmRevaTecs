@@ -1,0 +1,12 @@
+{
+  "name": "eectas-electrical-webapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Eectas electrical engineering web app",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

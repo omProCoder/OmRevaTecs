@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Empowering Electronics-Electricals </title>
+<meta name="description" content="Electrical/electronic engineering, PLC & automation, control panels, ESP32/IoT, wiring, web development, PC/IT services and CCTV/security installation. Call or WhatsApp for a quote.">
+<meta property="og:title" content="Empowering Electronics-Electricals">
+<meta property="og:description" content="Engineering solutions for machines, systems & digital infrastructure — electrical, automation, embedded, IT and CCTV services.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#071b2d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Empowering EE">
+<style>
+:root{
+  --ink:#071b2d;--ink-2:#0d2b43;--blue:#0878b7;--cyan:#13b9d6;--amber:#ffb31a;
+  --paper:#f5f8fb;--white:#fff;--line:#dce7ee;--muted:#647583;--shadow:0 18px 55px rgba(7,27,45,.10);
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.5}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.25;background-image:radial-gradient(#9bb2c1 1px,transparent 1px);background-size:24px 24px;mask-image:linear-gradient(to bottom,#000,transparent 65%);z-index:-1}
+a{color:inherit}
+.wrap{width:min(1180px,92%);margin:auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:15px;top:15px;background:#fff;padding:10px;z-index:99}
+.topline{height:4px;background:linear-gradient(90deg,var(--cyan),var(--blue),var(--amber))}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,27,45,.92);backdrop-filter:blur(18px);border-bottom:1px solid #ffffff14;color:#fff}
+.nav-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand-mark{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#13b9d6,#0878b7);box-shadow:0 8px 24px #13b9d633;flex:none}
+.brand-mark svg{width:25px}
+.brand-text{font-weight:900;letter-spacing:.02em;font-size:13px;line-height:1.15}
+.brand-text small{display:block;font-weight:600;color:#a8bdca;font-size:8px;letter-spacing:.12em;margin-top:5px}
+.links{display:flex;gap:5px;align-items:center}
+.links a{color:#dbe8ef;text-decoration:none;font-size:13px;font-weight:700;padding:10px 12px;border-radius:10px}
+.links a:hover{background:#ffffff10;color:#fff}
+.menu-btn{display:none;background:#ffffff0d;border:1px solid #ffffff22;color:#fff;border-radius:11px;padding:9px 11px;font-size:20px;cursor:pointer}
+.hero{position:relative;overflow:hidden;background:radial-gradient(circle at 75% 20%,#0d557a 0,#0a314c 35%,#071b2d 72%);color:#fff;padding:82px 0 88px}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border:1px solid #13b9d633;border-radius:50%;right:-170px;top:-180px;box-shadow:0 0 0 35px #13b9d608,0 0 0 90px #13b9d604}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 0 49%,#13b9d60b 50%,transparent 51%),linear-gradient(0deg,transparent 0 49%,#13b9d60b 50%,transparent 51%);background-size:48px 48px;opacity:.35;pointer-events:none}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:65px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid #ffffff2a;background:#ffffff0b;border-radius:999px;padding:8px 13px;color:#d9eef6;font-size:11px;font-weight:800;letter-spacing:.06em}
+.badge:before{content:"";width:7px;height:7px;background:var(--amber);border-radius:50%;box-shadow:0 0 0 5px #ffb31a1a}
+.hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;letter-spacing:-.045em;margin:20px 0 18px;max-width:760px}
+.hero h1:after{content:"";display:block;width:85px;height:5px;border-radius:99px;background:var(--amber);margin-top:22px}
+.hero p{font-size:18px;line-height:1.7;color:#c4d5df;max-width:660px;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;border-radius:12px;text-decoration:none;font-weight:850;font-size:14px;border:1px solid transparent;transition:.2s ease}
+.btn:hover{transform:translateY(-2px)}
+.white{background:#fff;color:var(--ink);box-shadow:0 12px 30px #0003}.outline{border-color:#ffffff2b;color:#fff;background:#ffffff0a}
+.hero-visual{position:relative}
+.engineering-card{position:relative;background:linear-gradient(145deg,#ffffff12,#ffffff05);border:1px solid #ffffff1d;border-radius:28px;padding:26px;box-shadow:0 28px 70px #0005;overflow:hidden}
+.engineering-card:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 20%,#13b9d60d 50%,transparent 80%)}
+.diagram{height:235px;position:relative;border-radius:18px;background:#061827;border:1px solid #ffffff10;overflow:hidden}
+.diagram:before,.diagram:after{content:"";position:absolute;background:#ffffff0b}
+.diagram:before{left:0;right:0;top:50%;height:1px}.diagram:after{top:0;bottom:0;left:50%;width:1px}
+.node{position:absolute;display:grid;place-items:center;border:1px solid #13b9d655;background:#0c2d43;color:#dff7ff;border-radius:12px;font-size:10px;font-weight:800;letter-spacing:.04em;padding:9px 10px;box-shadow:0 8px 25px #0003}
+.n1{left:10%;top:17%}.n2{right:9%;top:17%}.n3{left:10%;bottom:17%}.n4{right:9%;bottom:17%}
+.trace{position:absolute;background:linear-gradient(90deg,var(--cyan),#ffffff00);height:2px;transform-origin:left center;opacity:.9}
+.t1{width:34%;left:30%;top:31%;transform:rotate(0)}.t2{width:34%;left:30%;top:69%}.t3{width:25%;left:29%;top:50%;transform:rotate(-34deg)}.t4{width:25%;left:29%;top:50%;transform:rotate(34deg)}
+.center-chip{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:72px;height:72px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,#13b9d6,#0878b7);box-shadow:0 0 0 8px #13b9d614,0 15px 35px #0006}
+.center-chip svg{width:38px}
+.visual-label{margin:18px 0 0;font-size:12px;color:#9eb3bf;display:flex;justify-content:space-between;gap:15px}
+.visual-label strong{color:#fff}
+.section{padding:82px 0}.dark{background:#edf3f6}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}
+.section-head.center{display:block;text-align:center}
+.kicker{font-size:11px;color:var(--blue);font-weight:900;letter-spacing:.16em;text-transform:uppercase;margin:0 0 7px}
+h2{font-size:clamp(29px,4vw,42px);letter-spacing:-.035em;line-height:1.05;margin:0}
+.lead{color:var(--muted);margin:10px 0 0;font-size:15px}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{position:relative;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 8px 30px rgba(7,27,45,.055);overflow:hidden;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card:before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,var(--cyan),var(--blue),transparent)}
+.iconbox{width:48px;height:48px;border-radius:14px;background:#e8f7fb;color:var(--blue);display:grid;place-items:center;margin-bottom:18px}
+.iconbox svg{width:25px;height:25px}
+.card h3{margin:0 0 7px;font-size:18px;letter-spacing:-.01em}.card p,.panel p,.panel li{color:var(--muted);line-height:1.6;font-size:14px;margin:0}
+.card p{min-height:67px}
+.workflow{background:#071b2d;color:#fff;position:relative;overflow:hidden}
+.workflow:after{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:38px 38px;mask-image:linear-gradient(to right,transparent,#000 25%,#000 75%,transparent)}
+.workflow .wrap{position:relative;z-index:1}
+.workflow .kicker{color:#57d8ed}.workflow .lead{color:#a7bac6}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:40px}
+.step{position:relative;text-align:center;padding:0 18px}.step:not(:last-child):after{content:"";position:absolute;top:25px;left:62%;width:76%;height:1px;background:linear-gradient(90deg,#13b9d688,#ffffff12)}
+.step-no{position:relative;z-index:1;margin:0 auto 18px;width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:#0c314a;border:1px solid #13b9d655;color:#7de5f5;font-weight:900;box-shadow:0 0 0 8px #13b9d60a}
+.step b{font-size:15px}.step p{color:#9eb2bf;font-size:13px;margin:6px 0 0}
+.quote{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch}
+.panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:0 10px 35px rgba(7,27,45,.06)}
+.panel h3{font-size:21px;margin:0 0 9px}
+form{display:grid;grid-template-columns:1fr 1fr;column-gap:15px}
+label{display:block;font-weight:800;font-size:12px;margin:13px 0 6px;grid-column:span 1}
+input,select,textarea{width:100%;padding:12px 13px;border:1px solid #ccd9e1;background:#fbfdfe;border-radius:11px;font:inherit;font-size:14px;color:var(--ink);transition:.15s}
+textarea{min-height:116px;resize:vertical;grid-column:1/-1}
+#fservice{grid-column:span 1}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 4px #13b9d615}
+#freq{margin-top:0}
+.submit{grid-column:1/-1;margin-top:16px;background:var(--ink);color:#fff;border:0;padding:14px 18px;border-radius:11px;font-weight:850;cursor:pointer;font-size:14px;box-shadow:0 10px 22px #071b2d1c}
+.submit:hover{background:#0d3653}.form-note{grid-column:1/-1;font-size:11px!important;color:var(--muted);margin-top:9px!important}.form-note a{color:var(--blue);font-weight:800}
+.who{height:100%;background:linear-gradient(145deg,#0b3049,#082238);color:#fff;border:0;overflow:hidden;position:relative}
+.who:after{content:"⚡";position:absolute;right:-20px;bottom:-45px;font-size:190px;color:#13b9d60b;transform:rotate(-10deg)}
+.who p,.who li{color:#b5c8d3}.who ul{padding-left:20px;margin:19px 0 0}.who li{margin:10px 0}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.contact .card{text-align:center;padding:27px 18px}.contact .iconbox{margin:0 auto 15px}.contact a{color:var(--blue);font-weight:850;text-decoration:none;font-size:14px}
+footer{background:#05131f;color:#9db0bc;text-align:center;padding:28px 5%;font-size:12px;border-top:1px solid #ffffff08}
+footer a{color:#c7d9e2;text-decoration:none}
+.floating{position:fixed;right:18px;bottom:18px;z-index:18;width:56px;height:56px;border-radius:18px;display:grid;place-items:center;background:#18b967;color:#fff;box-shadow:0 14px 35px #071b2d45;text-decoration:none}
+.floating svg{width:25px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:40px}.hero{padding:65px 0 72px}.hero-visual{max-width:650px}
+  .service-grid{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr;gap:38px 0}.step:not(:last-child):after{display:none}
+  .quote{grid-template-columns:1fr}.contact{grid-template-columns:1fr 1fr}
+}
+@media(max-width:700px){
+  .nav-inner{min-height:68px}.brand-text{font-size:11px}.brand-text small{font-size:7px}.brand-mark{width:38px;height:38px}
+  .menu-btn{display:block}.links{display:none;position:absolute;left:0;right:0;top:100%;background:#071b2d;border-top:1px solid #ffffff10;padding:8px 4%;flex-direction:column;align-items:stretch}
+  .links.open{display:flex}.links a{padding:13px 10px}.hero h1{font-size:clamp(39px,13vw,62px)}.section{padding:64px 0}
+  .service-grid{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}
+  form{grid-template-columns:1fr}label,#fservice{grid-column:1/-1}.panel{padding:22px}
+}
+@media(max-width:460px){.hero{padding:52px 0 58px}.engineering-card{padding:15px}.diagram{height:205px}.process{grid-template-columns:1fr}.step{padding:0 10px}.section-head{display:block}.section-head .lead{margin-top:8px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topline"></div>
+<nav>
+  <div class="wrap nav-inner">
+    <a class="brand" href="#" aria-label="RAJLAXMI EMPOWERING ELECTRONICS-ELECTRICALS">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M13.2 2 5 13h6l-.9 9L19 10h-6l.2-8Z" fill="currentColor"/></svg></span>
+      <span class="brand-text">RAJLAXMI OMREVATECs ELECTRICALs<small>CONSULT · CONTROLS · TECHNOLOGY · AUTOMATION · SERVICE</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">☰</button>
+    <div class="links" id="navLinks">
+      <a href="#services">Services</a><a href="#projects">Projects</a><a href="#quote">Get Quote</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="badge">THE SOLUTION- Installation · Testing ·Commissioning · Maintenance </span>
+      <h1>for machines, systems &amp; infrastructure.</h1>
+      <p> Integrated Service for Industrial,Commercial and Residential Requirments </p>
+      <div class="actions">
+        <a class="btn white" href="#quote">Request a Service <span aria-hidden="true">↗</span></a>
+        <a class="btn outline" href="tel:+919423717855">Call Us</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="engineering-card">
+        <div class="diagram" aria-label="Electrical engineering system graphic">
+          <span class="node n1">POWER</span><span class="node n2">CONTROL</span>
+          <span class="node n3">I/O · IoT</span><span class="node n4">SECURITY</span>
+          <span class="trace t1"></span><span class="trace t2"></span><span class="trace t3"></span><span class="trace t4"></span>
+          <span class="center-chip"><svg viewBox="0 0 48 48" fill="none"><path d="M28 3 11 26h12l-2 19 17-25H26l2-17Z" fill="white"/></svg></span>
+        </div>
+        <div class="visual-label"><span><strong> Controls to Automate </strong><br> Wiring to Wireless </span><span>24/7<br>READY</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section id="services" class="section">
+  <div class="wrap">
+    <div class="section-head center"><p class="kicker">Capabilities</p><h2> Service-Premium &amp; Quality </h2><p class="lead">From a single repair to complete projects.</p></div>
+    <div class="service-grid">
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M13 2 5 13h6l-1 9 9-12h-6l0-8Z" fill="currentColor"/></svg></div><h3>Electrical</h3><p>Wiring,Cabling,installation, fault finding, maintenance and site support.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M9 2v3m6-3v3M9 19v3m6-3v3M2 9h3m-3 6h3m14-6h3m-3 6h3"/></svg></div><h3>PLC &amp; Automation</h3><p>PLC programming, HMI, sensors, motor, machine Control automation upgrades and troubleshooting.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h3m2 0h3M8 15h3m2 0h3"/></svg></div><h3>Control Panels</h3><p>Panel design, component selection, assembly, wiring, testing and commissioning.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="8"/><path d="M4 4 2 2m16 2 2-2"/></svg></div><h3>ESP32 / Embedded</h3><p>ESP32, Arduino, IoT, prototypes, custom electronics and coding,firmware.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div><h3>PC &amp; IT</h3><p>PC/laptop , software, Os, networking, upgrades and technical support.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v12H4z"/><path d="m8 21 4-4 4 4M8 9h8M8 12h5"/></svg></div><h3>Web &amp; Software</h3><p>Business websites, web applications, dashboards and custom software.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 9a8 8 0 0 1 16 0v8H4V9Z"/><path d="M8 17v3h8v-3M9 9h.01M15 9h.01"/></svg></div><h3>CCTV &amp; Security</h3><p>CCTV, DVR/NVR, IP cameras, remote view and access control.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m4 15 8-9 8 9"/><path d="M6 14h12v6H6zM12 9v4M9 12h6"/></svg></div><h3>Solar power plant</h3><p>Project planning,System design,Installation Maintenance.</p></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 18V6h16v12H4Z"/><path d="M8 15V9m4 6V9m4 6v-3"/></svg></div><h3>Project Development</h3><p>Prototype-to-deployment support for Engg academic and IoT projects.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section workflow">
+  <div class="wrap">
+    <div class="section-head center"><p class="kicker">Execution</p><h2>Project Workflow</h2><p class="lead">Requirement → Design → Build &amp; Test → Installation &amp; Support</p></div>
+    <div class="process">
+      <div class="step"><div class="step-no">01</div><b>Requirement</b><p>Understand application,Plan and site.</p></div>
+      <div class="step"><div class="step-no">02</div><b>Design</b><p> Design, System, Hardware, wiring .</p></div>
+      <div class="step"><div class="step-no">03</div><b>Build &amp; Test</b><p> Install, Assembly, programm,Testing.</p></div>
+      <div class="step"><div class="step-no">04</div><b>Install &amp; Support</b><p>Commissioning and after-service.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="quote" class="section">
+  <div class="wrap">
+    <div class="section-head center"><p class="kicker">Connect</p><h2>Request a Service / Quote</h2><p class="lead">Tell us.</p></div>
+    <div class="quote">
+      <div class="panel">
+        <form id="f">
+          <label for="fname">Name</label><label for="fphone">Phone</label>
+          <input id="fname" name="name" type="text" autocomplete="name" required>
+          <input id="fphone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number" required>
+          <label for="fservice">Service</label><span></span>
+          <select id="fservice" name="service">
+            <option>Electrical / Wiring</option><option>PLC / Automation</option><option>Control Panel</option>
+            <option>ESP32 / IoT / Embedded</option><option>PC / IT / Networking</option><option>Web Development / Software</option>
+            <option>CCTV / Security</option><option>Repair / Maintenance</option><option>Solar Power project</option><option>Other</option>
+          </select>
+          <label for="freq">Requirement</label><span></span>
+          <textarea id="freq" name="requirement" placeholder="Describe your requirement or fault"></textarea>
+          <button class="submit" type="submit">Send Enquiry via WhatsApp</button>
+          <p class="form-note">This opens WhatsApp with your details pre-filled so you can send it directly to us. Prefer email? <a href="mailto:rajlaxmi.revatec@gmail.com">Write to us instead</a>.</p>
+        </form>
+      </div>
+      <div class="panel who"><h3>Who we serve</h3><p>Factories, offices, shops, homes, institutions, machine builders and project developers.</p>
+        <ul><li>Site visits &amp; troubleshooting</li><li>New installations</li><li>Automation upgrades</li><li>Custom builds</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+  <div class="wrap">
+    <div class="section-head center"><p class="kicker">Get in touch</p><h2>Contact</h2><p class="lead">Reach out by phone, WhatsApp or email — we usually respond the same day.</p></div>
+    <div class="contact">
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h3l2 5-2 1.5a15 15 0 0 0 5.5 5.5L16 13l5 2v3c0 1-1 2-2 2C10 20 4 14 4 5c0-1.1.9-2 2-2Z"/></svg></div><h3>Call</h3><a href="tel:+919423717855">+91 94237 17855</a></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 4H4a2 2 0 0 0-2 2v12l4-3h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/><path d="M7 9h10M7 13h6"/></svg></div><h3>WhatsApp</h3><a href="https://wa.me/919423717855" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+      <div class="card"><div class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></div><h3>Email</h3><a href="mailto:rajlaxmi.revatec@gmail.com">rajlaxmi.revatec@gmail.com</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="floating" href="https://wa.me/919423717855" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+<svg viewBox="0 0 24 24" fill="none"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.1L2 22l5-1.3A11 11 0 1 0 20.5 3.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M8.5 7.5c.3-.6.6-.6 1-.6h.7c.2 0 .4.2.5.5l.8 2c.1.3 0 .5-.2.7l-.7.7c.7 1.2 1.7 2.2 3 2.9l.7-.8c.2-.2.4-.3.7-.2l2 .8c.3.1.5.3.5.6v.7c0 .4-.1.7-.6 1-1 .5-2.2.2-3.5-.4-2.2-1.1-4-2.8-5-5-.6-1.3-.8-2.5-.4-3.5Z" fill="currentColor"/></svg>
+</a>
+
+<footer>© 2026 All rights Reserved· OmRevaTecs· Chh Sambhajinagar Aurangabad<a href="tel:+919423717855"> Terms&amp;Cond. apply</a> · <a href="mailto:rajlaxmi.revatec@gmail.com">Thank You</a></footer>
+
+<script>
+var menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',function(){var isOpen=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',isOpen?'true':'false')});
+navLinks.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')})});
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  var name=document.getElementById('fname').value.trim(),phone=document.getElementById('fphone').value.trim(),service=document.getElementById('fservice').value,requirement=document.getElementById('freq').value.trim();
+  var text='New service enquiry\n'+'Name: '+name+'\n'+'Phone: '+phone+'\n'+'Service: '+service+'\n'+'Requirement: '+(requirement||'-');
+  window.open('https://wa.me/919423717855?text='+encodeURIComponent(text),'_blank','noopener');
+});
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}
+</script>
+</body>
+</html>
