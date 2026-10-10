@@ -2,7 +2,7 @@ EMPOWERING ELECTRONICS-ELECTRICALS WEB APP
 Open index.html in a browser. It is responsive for desktop and mobile.
 
 WHAT'S IN THIS VERSION
-- Real contact details are filled in: phone/WhatsApp +91 94237 17855, email nit.aubad@gmail.com
+- Real contact details are filled in: phone/WhatsApp +91 94237 17855, email rajlaxmi.omrevatecs@gmail.com
 - Mobile hamburger menu: nav links now collapse into a ☰ button under 800px width instead of disappearing
 - Enquiry form is wired: on submit it opens WhatsApp (wa.me) with the visitor's name, phone,
   service and requirement pre-filled as a message, so enquiries land directly in your WhatsApp.
